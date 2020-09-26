@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	pb "github.com/dave-ryley/grpc-colorgen-tutorial"
+	pb "github.com/dave-ryley/grpc-colorgen-tutorial/server"
 	"google.golang.org/grpc"
 	"log"
 	"math/rand"
