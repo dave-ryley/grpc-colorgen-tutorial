@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package protocolor;
+
+service ColorGenerator {
+    rpc GetRandomColor (CurrentColor) returns (NewColor) {}
+}
+
+message CurrentColor {
+    string color = 1;
+}
+
+message NewColor {
+    string color = 1;
+}
